@@ -17,7 +17,7 @@ img.QRCode {
 
 img.INTERSTATE{
 	position:absolute;
-	margin-top:201px;
+	margin-top:203px;
 	margin-left:90px;
 	height:38px;
 	width:278px;
@@ -35,7 +35,7 @@ img.BottomMenu{
 
 img.BigColor{
 	position:absolute;
-	margin-top:206px;
+	margin-top:208px;
 	
 
 }
@@ -68,7 +68,7 @@ p{
 
 div.date{
 	position:absolute;
-	margin-top:440px;
+	margin-top:445px;
 	margin-left:145px;
 	font-size: 26px;
 	font-weight: bold;
@@ -78,7 +78,7 @@ div.date{
 
 div.days{
 	position:absolute;
-	margin-top:491px;
+	margin-top:498px;
 	margin-left:105px;
 	font-size: 26px;
 	font-weight: bold;
@@ -98,7 +98,7 @@ h2{
 
 img.Color1{
 	position:absolute;
-	margin-top:565px;
+	margin-top:575px;
 	margin-left:10px;
 	height:25px;
 	width:150px;
@@ -108,7 +108,7 @@ img.Color1{
 }
 img.Color2{
 	position:absolute;
-	margin-top:547px;
+	margin-top:556px;
 	margin-left:150px;
 	height:25px;
 	width:150px;
@@ -117,7 +117,7 @@ img.Color2{
 }
 img.Color3{
 	position:absolute;
-	margin-top:529px;
+	margin-top:538px;
 	margin-left:290px;
 	height:25px;
 	width:145px;
