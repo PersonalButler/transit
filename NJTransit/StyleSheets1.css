@@ -10,17 +10,17 @@ img.QRCode {
 	position:absolute;
 	margin-top:10px;
 	margin-left:244px;
-	height:200px;
-	width:176px;
+	height:204px;
+	width:179px;
 
 }
 
 img.INTERSTATE{
 	position:absolute;
-	margin-top:198px;
+	margin-top:201px;
 	margin-left:90px;
-	height:36px;
-	width:265px;
+	height:38px;
+	width:278px;
 
 
 }
@@ -35,7 +35,7 @@ img.BottomMenu{
 
 img.BigColor{
 	position:absolute;
-	margin-top:203px;
+	margin-top:206px;
 	
 
 }
@@ -68,9 +68,9 @@ p{
 
 div.date{
 	position:absolute;
-	margin-top:432px;
+	margin-top:440px;
 	margin-left:145px;
-	font-size: 28px;
+	font-size: 26px;
 	font-weight: bold;
 	font-family: "Arial", "sans-serif;";
 
@@ -78,9 +78,9 @@ div.date{
 
 div.days{
 	position:absolute;
-	margin-top:483px;
+	margin-top:491px;
 	margin-left:105px;
-	font-size: 28px;
+	font-size: 26px;
 	font-weight: bold;
 	font-family: "Arial", "sans-serif;";
 
@@ -88,7 +88,7 @@ div.days{
 
 h2{
 	position: absolute;
-	margin-top:535px;
+	margin-top:540px;
 	margin-left:130px;
 	font-size: 20px;
 	font-family: "Arial", "sans-serif;";
@@ -98,7 +98,7 @@ h2{
 
 img.Color1{
 	position:absolute;
-	margin-top:555px;
+	margin-top:565px;
 	margin-left:10px;
 	height:25px;
 	width:150px;
@@ -108,7 +108,7 @@ img.Color1{
 }
 img.Color2{
 	position:absolute;
-	margin-top:537px;
+	margin-top:547px;
 	margin-left:150px;
 	height:25px;
 	width:150px;
@@ -117,7 +117,7 @@ img.Color2{
 }
 img.Color3{
 	position:absolute;
-	margin-top:519px;
+	margin-top:529px;
 	margin-left:290px;
 	height:25px;
 	width:145px;
