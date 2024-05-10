@@ -120,14 +120,13 @@ function updateCountdown(){
 	// fix this 
 	let dayString = d.substring (2,3);
 	let monthString = d.substring(0,2);
+	let yearString = d.substring (4,8);
 	if (monthString.charAt(1)=='/'){
 		monthString=d.substring(0,1);
 		dayString=d.substring (2,4);
-	}
-	let yearString = d.substring (4,8);
-	if (monthString.charAt(1)=='/'){
 		yearString = d.substring (5,9);
 	}
+	
 	let monthName = map1.get(monthString);
 	days.innerHTML = day + ', ' + monthName + ' ' + dayString + ', ' + yearString;
 
