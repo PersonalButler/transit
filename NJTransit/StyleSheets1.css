@@ -8,26 +8,26 @@ height:190px;
 img.QRCode {
 	
 	position:absolute;
-	margin-top:5px;
+	margin-top:6px;
 	margin-left:244px;
-	height:210px;
-	width:185px;
+	height:208px;
+	width:183px;
 
 }
 
 img.INTERSTATE{
 	position:absolute;
-	margin-top:210px;
-	margin-left:90px;
-	height:36px;
-	width:265px;
+	margin-top:205px;
+	margin-left:82px;
+	height:39px;
+	width:282px;
 
 
 }
 
 img.BottomMenu{
 	position:absolute;
-	margin-top:675px;
+	margin-top:680px;
 	marrgin-left:-20px;
 	height:72px;
 	width:450px;
@@ -35,7 +35,7 @@ img.BottomMenu{
 
 img.BigColor{
 	position:absolute;
-	margin-top:217px;
+	margin-top:211px;
 	
 
 }
@@ -68,9 +68,9 @@ p{
 
 div.date{
 	position:absolute;
-	margin-top:462px;
-	margin-left:145px;
-	font-size: 28px;
+	margin-top:447px;
+	margin-left:140px;
+	font-size: 27.5px;
 	font-weight: bold;
 	font-family: "Arial", "sans-serif;";
 
@@ -78,9 +78,9 @@ div.date{
 
 div.days{
 	position:absolute;
-	margin-top:513px;
-	margin-left:105px;
-	font-size: 28px;
+	margin-top:500px;
+	margin-left:100px;
+	font-size: 27.5px;
 	font-weight: bold;
 	font-family: "Arial", "sans-serif;";
 
@@ -88,9 +88,9 @@ div.days{
 
 h2{
 	position: absolute;
-	margin-top:565px;
+	margin-top:553px;
 	margin-left:130px;
-	font-size: 20px;
+	font-size: 21px;
 	font-family: "Arial", "sans-serif;";
 
 
@@ -98,30 +98,30 @@ h2{
 
 img.Color1{
 	position:absolute;
-	margin-top:585px;
+	margin-top:580px;
 	margin-left:10px;
 	height:25px;
 	width:150px;
-	animation: blink 2.0s;
+	animation: blink 1.002s;
     animation-iteration-count: infinite;
 	
 }
 img.Color2{
 	position:absolute;
-	margin-top:567px;
+	margin-top:560px;
 	margin-left:150px;
 	height:25px;
 	width:150px;
-	animation: blink 2.0s;
+	animation: blink 1.002s;
     animation-iteration-count: infinite;
 }
 img.Color3{
 	position:absolute;
-	margin-top:549px;
+	margin-top:540px;
 	margin-left:290px;
 	height:25px;
 	width:145px;
-	animation: blink 2.0s;
+	animation: blink 1.002s;
     animation-iteration-count: infinite;
 
 }
