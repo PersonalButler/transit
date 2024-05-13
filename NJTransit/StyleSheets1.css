@@ -102,7 +102,7 @@ img.Color1{
 	margin-left:10px;
 	height:25px;
 	width:150px;
-	animation: blink 1.01s;
+	animation: blink 1.03s;
     animation-iteration-count: infinite;
 	
 }
@@ -112,7 +112,7 @@ img.Color2{
 	margin-left:150px;
 	height:25px;
 	width:150px;
-	animation: blink 1.01s;
+	animation: blink 1.03s;
     animation-iteration-count: infinite;
 }
 img.Color3{
@@ -121,7 +121,7 @@ img.Color3{
 	margin-left:290px;
 	height:25px;
 	width:145px;
-	animation: blink 1.01s;
+	animation: blink 1.03s;
     animation-iteration-count: infinite;
 
 }
