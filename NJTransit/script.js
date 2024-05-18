@@ -7,6 +7,8 @@ let seconds = start;
 let expirationMinutes = 29;
 let timeSuffix = 'AM';
 
+let blink = 1;
+
 const d = new Date().toLocaleString();
 
 const map1 = new Map();
@@ -64,8 +66,16 @@ if (dateHours>12){
 	timeSuffix = 'PM';
 }
 
-
-
+function flicker(){
+	if (blink==1){
+	document.getElementById('blink').hidden=true;
+	blink=0;
+	}
+	else if (blink==0){
+	document.getElementById('blink').hidden=false;
+	blink=1;
+	}
+}
 
 function updateCountdown(){
 	if (expirationMinutes==18)
@@ -136,6 +146,6 @@ function updateCountdown(){
 }
 
 setInterval(updateCountdown, 1000);
-
+setInterval(flicker,500);
 //updateCountdowntime();
 
