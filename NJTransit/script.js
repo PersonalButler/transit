@@ -129,7 +129,7 @@ function updateCountdown(){
 		dayString = "0" + dayString;
 	
 	let monthName = map1.get(monthString);
-	days.innerHTML = day + ', ' + monthName + ' ' + '0'+dayString + ', ' + yearString;
+	days.innerHTML = day + ', ' + monthName + ' ' + dayString + ', ' + yearString;
 
 
 }
