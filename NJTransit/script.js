@@ -117,7 +117,7 @@ function updateCountdown(){
 	}
 	dateSeconds=dateSeconds +1;
 	// fix this 
-	let dayString = d.substring (2,4);
+	let dayString = d.substring (3,5);
 	let monthString = d.substring(0,2);
 	let yearString = d.substring (4,8);
 	if (monthString.charAt(1)=='/'){
