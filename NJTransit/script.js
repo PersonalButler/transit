@@ -120,7 +120,7 @@ function updateCountdown(){
 	let dayString = d.substring (2,3);
 	let monthString = d.substring(0,2);
 	let yearString = d.substring (4,8);
-	if (monthString.charAt(1)=='/'){
+	if (dayString.charAt(1)=='/'){
 		monthString=d.substring(0,1);
 		dayString=d.substring (2,4);
 		yearString = d.substring (5,9);
