@@ -117,16 +117,35 @@ function updateCountdown(){
 	}
 	dateSeconds=dateSeconds +1;
 	// fix this 
-	let dayString = d.substring (2,3);
-	let monthString = d.substring(0,2);
-	let yearString = d.substring (4,8);
-	if (dayString.charAt(1)=='/'){
+	let dayString = "dayString";
+	let monthString = "monthString";
+	let yearString = "yearString";
+
+
+	if (monthString.charAt(1)=='/'){
 		monthString=d.substring(0,1);
+		if (d.charAt(3)=='/'){
+		dayString='0'+d.substring (2,3);
+		yearString = d.substring (4,8);
+		}
+		else{
 		dayString=d.substring (2,4);
 		yearString = d.substring (5,9);
+		}
 	}
-	if (dayString.length==1)
-		dayString = "0" + dayString;
+
+	else {
+		monthString=d.substring(0,2);
+		if (d.charAt(4)=='/'){
+		dayString='0'+d.substring (3,4);
+		yearString = d.substring (5,9);
+		}
+		else{
+		dayString=d.substring (3,5);
+		yearString = d.substring (6,10);
+		}
+	}
+	
 	
 	let monthName = map1.get(monthString);
 	days.innerHTML = day + ', ' + monthName + ' ' + dayString + ', ' + yearString;
