@@ -117,12 +117,12 @@ function updateCountdown(){
 	}
 	dateSeconds=dateSeconds +1;
 	// fix this 
-	let dayString = "dayString";
-	let monthString = "monthString";
-	let yearString = "yearString";
+	let dayString = "d.substring (2,3)";
+	let monthString = "d.substring(0,2)";
+	let yearString = "d.substring (4,8)";
 
 
-	if (monthString.charAt(1)=='/'){
+	if (d.charAt(1)=='/'){
 		monthString=d.substring(0,1);
 		if (d.charAt(3)=='/'){
 		dayString='0'+d.substring (2,3);
