@@ -69,8 +69,7 @@ p{
 div.date{
 	position:absolute;
 	margin-top:447px;
-	/*change margin-left to 100 for Wednesdays, and 140 for any other day*/
-	margin-left:100px;
+	margin-left:140px;
 	font-size: 27.5px;
 	font-weight: bold;
 	font-family: "Arial", "sans-serif;";
@@ -80,7 +79,8 @@ div.date{
 div.days{
 	position:absolute;
 	margin-top:500px;
-	margin-left:100px;
+	/*change margin-left to 70 for Wednesdays, and 100 for any other day*/
+	margin-left:70px;
 	font-size: 27.5px;
 	font-weight: bold;
 	font-family: "Arial", "sans-serif;";
