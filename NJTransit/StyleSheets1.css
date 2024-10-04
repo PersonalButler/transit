@@ -1,0 +1,129 @@
+img.OneWayAdult{
+position:absolute;
+height:190px;
+	width:190px;
+}
+
+
+img.QRCode {
+	
+	position:absolute;
+	margin-top:6px;
+	margin-left:244px;
+	height:208px;
+	width:183px;
+
+}
+
+img.INTERSTATE{
+	position:absolute;
+	margin-top:205px;
+	margin-left:82px;
+	height:39px;
+	width:282px;
+
+
+}
+
+img.BottomMenu{
+	position:absolute;
+	margin-top:680px;
+	marrgin-left:-20px;
+	height:72px;
+	width:450px;
+}
+
+img.BigColor{
+	position:absolute;
+	margin-top:211px;
+	
+
+}
+
+p{
+	background-color: #fff;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size:50px;
+	height:70px;
+	width:200px;
+
+}
+
+@keyframes blink  {
+  0% {
+        opacity: 1;
+    }
+  49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+div.date{
+	position:absolute;
+	margin-top:447px;
+	margin-left:140px;
+	font-size: 27.5px;
+	font-weight: bold;
+	font-family: "Arial", "sans-serif;";
+
+}
+
+div.days{
+	position:absolute;
+	margin-top:500px;
+	/*change margin-left to 70 for Wednesdays, and 100 for any other day*/
+	margin-left:70px;
+	font-size: 27.5px;
+	font-weight: bold;
+	font-family: "Arial", "sans-serif;";
+
+}
+
+h2{
+	position: absolute;
+	margin-top:553px;
+	margin-left:130px;
+	font-size: 21px;
+	font-family: "Arial", "sans-serif;";
+
+
+}
+
+img.Color1{
+	position:absolute;
+	margin-top:580px;
+	margin-left:10px;
+	height:25px;
+	width:150px;
+	animation: blink 1.007s;
+    animation-iteration-count: infinite;
+	
+}
+img.Color2{
+	position:absolute;
+	margin-top:560px;
+	margin-left:150px;
+	height:25px;
+	width:150px;
+	animation: blink 1.007s;
+    animation-iteration-count: infinite;
+}
+img.Color3{
+	position:absolute;
+	margin-top:540px;
+	margin-left:290px;
+	height:25px;
+	width:145px;
+	animation: blink 1.007s;
+    animation-iteration-count: infinite;
+
+}
+
